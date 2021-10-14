@@ -1,4 +1,4 @@
-[How to use this template](./.github/template/README.md)
+[Live Demo](https://yuqi.hu/Black-Snow/)
 
 # Black Snow
 
