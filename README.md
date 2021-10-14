@@ -1,5 +1,5 @@
 [How to use this template](./.github/template/README.md)
 
-# Project Name
+# Black Snow
 
-A brief description about your project.
+For now, I finished wireframes and prototypes.
