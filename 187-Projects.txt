@@ -1,0 +1,13 @@
+1. scroll up button
+2. read more button - corner
+3. transition between desk to mobile version
+4. logo size
+
+iframe-responsive size slack general
+
+182:
+date spacing`
+photo editing'
+M stand out for members'
+microphone on the second one stands 'out
+report
