@@ -80,6 +80,7 @@ body {
   line-height: var(--line-spacing-15);
   letter-spacing: var(--character-spacing-0);
   color: var(--typecolor);
+  max-width: 120ch;
 }
 h2 {
   font-family: var(--font-family-candara);
@@ -273,8 +274,10 @@ h1 {
   transition: 0.4s;
 }
 p {
-  /* max-width: 75ch; */
+  max-width: 75ch;
   padding-top: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
