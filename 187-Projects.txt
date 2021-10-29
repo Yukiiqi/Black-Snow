@@ -1,9 +1,26 @@
-1. scroll up button
-2. read more button - corner
-3. transition between desk to mobile version
-4. logo size
+1.faq-make faq connected - get rid of margin-top -
+3.max-width:75ch; on p; do not do -padding, do max width
+4.make logo clear- download svg
 
-iframe-responsive size slack general
+1. size video responsively-
+2. add caption in photo-
+2. make grid of photo
+3. side by side cards
+
+
+4. logo size-
+
+
+put each paragraph into <p> instead of <br>
+
+
+make logo larger- download svg
+
+do not do padding, do max width
+
+
+
+put things side by side - grid of photo
 
 182:
 date spacing`

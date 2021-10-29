@@ -105,11 +105,11 @@ h2 {
 
 body {
   background-color: var(--backgroundbrown);
-  margin: 0;
 }
 /*link*/
 a {
   color: var(--typecolor);
+  text-decoration: none;
 }
 a:hover {
   color: var(--highlighto);
@@ -118,6 +118,7 @@ a:hover {
 footer {
   background-color: var(--lighterbrown);
   padding: 1rem;
+  margin-top: 1em;
 }
 .highlight {
   font-family: var(--font-family-candara);
@@ -158,7 +159,6 @@ nav ul {
 }
 
 button {
-  font-weight: bold;
   padding: 0.3rem 0.5rem;
   margin-top: 1rem;
 }
@@ -172,18 +172,57 @@ button:active {
   background-color: rgb(58, 40, 7);
 }
 
+/* #b1 {
+  display: flex;
+
+} */
 article,
 div {
   padding: 1rem 1.5rem;
-  margin-top: 1rem;
 }
 
 .navbar img {
-  max-width: 12rem;
+  max-width: 7rem;
+}
+
+figure {
+  font-size: var(--font-size-10);
+  color: lightgrey;
+}
+
+h1 {
+  text-align: center;
+}
+.outer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0.2rem;
+}
+.inner-grid {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 0.2rem;
+}
+.inner-grid img {
+  margin-top: 8px;
+  width: 100%;
+  padding: 0.01rem;
+}
+
+/* //full screen image */
+@media screen and (max-width: 50em) {
+  .inner-grid {
+    flex: 50%;
+    max-width: 50%;
+  }
 }
 
 /*mobile*/
 @media (max-width: 40em) {
+  .inner-grid {
+    flex: 100%;
+    max-width: 100%;
+  }
   .navbar ul {
     display: none;
     background-color: var(--lighterbrown);
@@ -233,11 +272,15 @@ div {
   outline: none;
   transition: 0.4s;
 }
+p {
+  /* max-width: 75ch; */
+  padding-top: 0.5em;
+}
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .accordion:hover {
-  background-color: #ccc;
+  background-color: var(--highlighto);
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -246,6 +289,7 @@ div {
   background-color: var(--lighterbrown);
   display: none;
   overflow: hidden;
+  margin: 0;
 }
 
 button.active + .panel {
@@ -257,3 +301,13 @@ button.active + .panel {
   justify-content: flex-end;
   overflow: hidden;
 }
+
+/* .link-button {
+  text-align: center;
+  text-decoration: none;
+  background: white;
+  color: black;
+  padding: 0.7em 0.7em;
+  border-radius: 0.2em;
+  margin-top: 5em;
+} */
